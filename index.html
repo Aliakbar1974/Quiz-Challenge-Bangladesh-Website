@@ -4,238 +4,126 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Quiz Challenge Bangladesh</title>
-  <meta name="description" content="Quiz Challenge Bangladesh — Bangladesh Quiz, English Vocabulary, English Grammar and General Knowledge MCQ practice.">
+  <title>Quiz Challenge Bangladesh | Educational MCQ Practice</title>
+  <meta name="description" content="Quiz Challenge Bangladesh provides educational MCQ practice in Bangladesh studies, English vocabulary, English grammar, and general knowledge.">
 
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: Arial, "Noto Sans Bengali", sans-serif;
-      background: linear-gradient(135deg, #eef7ff, #f8fbff);
-      color: #1f2937;
-      min-height: 100vh;
-    }
-
-    .container {
-      width: min(1100px, 92%);
-      margin: 0 auto;
-    }
-
-    header {
-      text-align: center;
-      padding: 55px 15px 35px;
-    }
-
-    .badge {
-      display: inline-block;
-      padding: 8px 18px;
-      border-radius: 999px;
-      background: #e0f2fe;
-      color: #0369a1;
-      font-weight: 700;
-      font-size: 14px;
-      margin-bottom: 18px;
-    }
-
-    h1 {
-      font-size: clamp(32px, 6vw, 58px);
-      line-height: 1.1;
-      margin-bottom: 12px;
-    }
-
-    .tagline {
-      max-width: 720px;
-      margin: 0 auto;
-      color: #64748b;
-      font-size: 17px;
-      line-height: 1.7;
-    }
-
-    .quiz-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 22px;
-      padding: 20px 0 45px;
-    }
-
-    .quiz-card {
-      background: #ffffff;
-      border: 1px solid #e2e8f0;
-      border-radius: 18px;
-      padding: 28px;
-      box-shadow: 0 8px 25px rgba(15, 23, 42, 0.07);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .quiz-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 14px 30px rgba(15, 23, 42, 0.11);
-    }
-
-    .icon {
-      font-size: 38px;
-      margin-bottom: 14px;
-    }
-
-    .quiz-card h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-
-    .quiz-card p {
-      color: #64748b;
-      line-height: 1.65;
-      margin-bottom: 20px;
-    }
-
-    .btn {
-      display: inline-block;
-      text-decoration: none;
-      background: #2563eb;
-      color: #ffffff;
-      padding: 11px 20px;
-      border-radius: 10px;
-      font-weight: 700;
-    }
-
-    .btn:hover {
-      background: #1d4ed8;
-    }
-
-    .note {
-      text-align: center;
-      padding: 10px 0 45px;
-      color: #64748b;
-      line-height: 1.7;
-    }
-
-    footer {
-      border-top: 1px solid #e2e8f0;
-      text-align: center;
-      padding: 28px 15px;
-      color: #64748b;
-      font-size: 14px;
-    }
-
-    @media (max-width: 700px) {
-      .quiz-grid {
-        grid-template-columns: 1fr;
-      }
-
-      header {
-        padding-top: 38px;
-      }
-
-      .quiz-card {
-        padding: 23px;
-      }
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, "Noto Sans Bengali", sans-serif; background: linear-gradient(135deg, #eef7ff, #f8fbff); color: #1f2937; min-height: 100vh; }
+    .container { width: min(1100px, 92%); margin: 0 auto; }
+    nav { border-bottom: 1px solid #e2e8f0; background: rgba(255,255,255,.92); }
+    .nav-inner { display:flex; flex-wrap:wrap; gap:14px; align-items:center; justify-content:center; padding:14px 0; }
+    nav a { color:#1d4ed8; text-decoration:none; font-weight:700; font-size:14px; }
+    header { text-align:center; padding:45px 15px 30px; }
+    .badge { display:inline-block; padding:8px 18px; border-radius:999px; background:#e0f2fe; color:#0369a1; font-weight:700; font-size:14px; margin-bottom:18px; }
+    h1 { font-size: clamp(32px, 6vw, 58px); line-height:1.1; margin-bottom:12px; }
+    .tagline { max-width:760px; margin:0 auto; color:#64748b; font-size:17px; line-height:1.7; }
+    .quiz-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; padding:20px 0 35px; }
+    .quiz-card { background:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:28px; box-shadow:0 8px 25px rgba(15,23,42,.07); }
+    .icon { font-size:38px; margin-bottom:14px; }
+    .quiz-card h2 { font-size:24px; margin-bottom:10px; }
+    .quiz-card p { color:#64748b; line-height:1.65; margin-bottom:20px; }
+    .btn { display:inline-block; text-decoration:none; background:#2563eb; color:#fff; padding:11px 20px; border-radius:10px; font-weight:700; }
+    .section { background:#fff; border:1px solid #e2e8f0; border-radius:18px; padding:28px; margin:0 0 28px; box-shadow:0 6px 20px rgba(15,23,42,.05); }
+    .section h2 { margin-bottom:12px; font-size:25px; }
+    .section p, .section li { color:#475569; line-height:1.75; }
+    .section ul { padding-left:22px; margin-top:10px; }
+    .note { text-align:center; padding:10px 0 45px; color:#64748b; line-height:1.7; }
+    footer { border-top:1px solid #e2e8f0; text-align:center; padding:28px 15px; color:#64748b; font-size:14px; background:#fff; }
+    footer a { color:#2563eb; }
+    @media (max-width:700px) { .quiz-grid { grid-template-columns:1fr; } header { padding-top:35px; } .quiz-card, .section { padding:23px; } }
   </style>
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Quiz Challenge Bangladesh">
-<meta property="og:description" content="Quiz Challenge Bangladesh — Bangladesh Quiz, English Vocabulary, English Grammar and General Knowledge MCQ practice.">
-<meta property="og:url" content="https://aliakbar1974.github.io/Quiz-Challenge-Bangladesh-Website/">
-<link rel="canonical" href="https://aliakbar1974.github.io/Quiz-Challenge-Bangladesh-Website/">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":"Quiz Challenge Bangladesh","url":"https://aliakbar1974.github.io/Quiz-Challenge-Bangladesh-Website/","description":"Quiz Challenge Bangladesh — Bangladesh Quiz, English Vocabulary, English Grammar and General Knowledge MCQ practice."}
-</script>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Quiz Challenge Bangladesh | Educational MCQ Practice">
+  <meta property="og:description" content="Educational MCQ practice in Bangladesh studies, English vocabulary, English grammar, and general knowledge.">
+  <meta property="og:url" content="https://aliakbar1974.github.io/Quiz-Challenge-Bangladesh-Website/">
+  <link rel="canonical" href="https://aliakbar1974.github.io/Quiz-Challenge-Bangladesh-Website/">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebSite","name":"Quiz Challenge Bangladesh","url":"https://aliakbar1974.github.io/Quiz-Challenge-Bangladesh-Website/","description":"Educational MCQ practice in Bangladesh studies, English vocabulary, English grammar, and general knowledge."}
+  </script>
 </head>
 
 <body>
+<nav aria-label="Main navigation">
+  <div class="container nav-inner">
+    <a href="index.html">Home</a>
+    <a href="bangladesh-quizzes.html">Bangladesh Quiz</a>
+    <a href="vocabulary-quizzes.html">Vocabulary</a>
+    <a href="english-grammar-quizzes.html">Grammar</a>
+    <a href="general-knowledge-quizzes.html">General Knowledge</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
 
-  <header>
-    <div class="container">
-      <div class="badge">MCQ • LEARN • PRACTICE</div>
+<header>
+  <div class="container">
+    <div class="badge">MCQ • LEARN • PRACTICE</div>
+    <h1>Quiz Challenge Bangladesh</h1>
+    <p class="tagline">Improve your knowledge, strengthen your English skills, practice regularly, and test your preparation with structured MCQ quizzes.</p>
+  </div>
+</header>
 
-      <h1>Quiz Challenge Bangladesh</h1>
+<main class="container">
+  <section class="quiz-grid" aria-label="Quiz categories">
+    <article class="quiz-card">
+      <div class="icon">🇧🇩</div>
+      <h2>Bangladesh Quiz</h2>
+      <p>Practice MCQs on Bangladesh's history, geography, Liberation War, administration, culture, and other important topics.</p>
+      <a class="btn" href="bangladesh-quizzes.html">View Quizzes</a>
+    </article>
 
-      <p class="tagline">
-        Improve your knowledge, practice regularly, and test your preparation.
-        Explore MCQ quizzes from different subjects in one place.
-      </p>
-    </div>
-  </header>
+    <article class="quiz-card">
+      <div class="icon">🇬🇧</div>
+      <h2>English Vocabulary</h2>
+      <p>Build vocabulary through meanings, explanations, example sentences, and practical multiple-choice practice.</p>
+      <a class="btn" href="vocabulary-quizzes.html">View Quizzes</a>
+    </article>
 
-  <main class="container">
+    <article class="quiz-card">
+      <div class="icon">📚</div>
+      <h2>English Grammar</h2>
+      <p>Practice English Grammar through a structured Level and Chapter system, from foundational topics toward advanced study.</p>
+      <a class="btn" href="english-grammar-quizzes.html">View Quizzes</a>
+    </article>
 
-    <section class="quiz-grid">
+    <article class="quiz-card">
+      <div class="icon">🌍</div>
+      <h2>General Knowledge</h2>
+      <p>Practice MCQs on world history, geography, science, and other important general knowledge topics.</p>
+      <a class="btn" href="general-knowledge-quizzes.html">View Quizzes</a>
+    </article>
+  </section>
 
-      <article class="quiz-card">
-        <div class="icon">🇧🇩</div>
-        <h2>Bangladesh Quiz</h2>
-        <p>
-          Practice MCQs on Bangladesh's history, geography, Liberation War, administration,
-          culture, and other important topics.
-        </p>
-        <a class="btn"
-           href="bangladesh-quizzes.html">
-          View Quizzes
-        </a>
-      </article>
+  <section class="section">
+    <h2>How to use the quizzes</h2>
+    <p>Choose a subject from the library, open a quiz, select the available learning or exam mode, and review your result after completion. Learning-focused quizzes may provide explanations and examples so that a question becomes an opportunity to study, not only to measure a score.</p>
+    <ul>
+      <li>Start with topics that match your current study goal.</li>
+      <li>Use explanations and examples to review mistakes.</li>
+      <li>Repeat quizzes when you want to strengthen recall.</li>
+      <li>Use the result as a practice indicator rather than an official examination result.</li>
+    </ul>
+  </section>
 
-      <article class="quiz-card">
-        <div class="icon">🇬🇧</div>
-        <h2>English Vocabulary</h2>
-        <p>
-          Build your English vocabulary with meanings, explanations,
-          example sentences, and practical MCQ practice.
-        </p>
-        <a class="btn"
-           href="vocabulary-quizzes.html">
-          View Quizzes
-        </a>
-      </article>
+  <section class="section">
+    <h2>Our educational focus</h2>
+    <p>Quiz Challenge Bangladesh is designed as a simple practice resource for learners who want short, repeatable MCQ sessions. The site brings together Bangladesh studies, English vocabulary, English grammar, and general knowledge in separate libraries so visitors can move directly to the subject they want to practice.</p>
+    <p style="margin-top:12px;">Questions are prepared for educational practice. Because facts, terminology, and examination expectations can change, important information should also be checked against authoritative textbooks, official publications, or other reliable sources.</p>
+  </section>
 
-      <article class="quiz-card">
-        <div class="icon">📚</div>
-        <h2>English Grammar</h2>
-        <p>
-          Practice English Grammar MCQs from beginner to advanced levels
-          through structured Levels and Chapters.
-        </p>
-        <a class="btn"
-           href="english-grammar-quizzes.html">
-          View Quizzes
-        </a>
-      </article>
+  <p class="note">New quizzes and learning material may be added regularly. Explore a subject, practice at your own pace, and keep learning.</p>
+</main>
 
-      <article class="quiz-card">
-        <div class="icon">🌍</div>
-        <h2>General Knowledge</h2>
-        <p>
-          Practice MCQs on world history, geography, science, and other
-          important general knowledge topics.
-        </p>
-        <a class="btn"
-           href="general-knowledge-quizzes.html">
-          View Quizzes
-        </a>
-      </article>
-
-    </section>
-
-    <p class="note">
-      New quizzes will be added regularly. Check your results after each quiz
-      and continue practicing with more quizzes.
-    </p>
-
-  </main>
-
-  <footer>
-    <p>© 2026 Quiz Challenge Bangladesh. All rights reserved.</p>
-    <p style="margin-top:10px;">
-      <a href="about.html">About</a> ·
-      <a href="privacy-policy.html">Privacy Policy</a> ·
-      <a href="disclaimer.html">Disclaimer</a> ·
-      <a href="contact.html">Contact</a>
-    </p>
-  </footer>
-
+<footer>
+  <p>© 2026 Quiz Challenge Bangladesh. All rights reserved.</p>
+  <p style="margin-top:10px;">
+    <a href="about.html">About</a> ·
+    <a href="privacy-policy.html">Privacy Policy</a> ·
+    <a href="disclaimer.html">Disclaimer</a> ·
+    <a href="contact.html">Contact</a>
+  </p>
+</footer>
 </body>
 </html>
