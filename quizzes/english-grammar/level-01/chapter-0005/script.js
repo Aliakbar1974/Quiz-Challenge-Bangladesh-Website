@@ -20,13 +20,13 @@ const FACEBOOK_POST_URL =
 // ============================================================
 
 const sounds = {
-    start: new Audio("Sounds/Start.wav"),
-    correct: new Audio("Sounds/Correct.wav"),
-    wrong: new Audio("Sounds/Wrong.wav"),
-    tryAgain: new Audio("Sounds/TryAgain.wav"),
-    success: new Audio("Sounds/Success.wav"),
-    victory: new Audio("Sounds/Victory.wav"),
-    complete: new Audio("Sounds/Complete.wav")
+    start: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0005/Sounds/Start.wav"),
+    correct: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0005/Sounds/Correct.wav"),
+    wrong: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0005/Sounds/Wrong.wav"),
+    tryAgain: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0005/Sounds/TryAgain.wav"),
+    success: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0005/Sounds/Success.wav"),
+    victory: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0005/Sounds/Victory.wav"),
+    complete: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0005/Sounds/Complete.wav")
 };
 
 
