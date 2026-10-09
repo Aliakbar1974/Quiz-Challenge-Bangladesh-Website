@@ -20,13 +20,13 @@ const FACEBOOK_POST_URL =
 // ============================================================
 
 const sounds = {
-    start: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0008/Sounds/Start.wav"),
-    correct: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0008/Sounds/Correct.wav"),
-    wrong: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0008/Sounds/Wrong.wav"),
-    tryAgain: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0008/Sounds/TryAgain.wav"),
-    success: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0008/Sounds/Success.wav"),
-    victory: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0008/Sounds/Victory.wav"),
-    complete: new Audio("https://aliakbar1974.github.io/English-Grammar/Level-01/Chapter-0008/Sounds/Complete.wav")
+    start: new Audio("../chapter-0001/Sounds/Start.wav"),
+    correct: new Audio("../chapter-0001/Sounds/Correct.wav"),
+    wrong: new Audio("../chapter-0001/Sounds/Wrong.wav"),
+    tryAgain: new Audio("../chapter-0001/Sounds/TryAgain.wav"),
+    success: new Audio("../chapter-0001/Sounds/Success.wav"),
+    victory: new Audio("../chapter-0001/Sounds/Victory.wav"),
+    complete: new Audio("../chapter-0001/Sounds/Complete.wav")
 };
 
 
