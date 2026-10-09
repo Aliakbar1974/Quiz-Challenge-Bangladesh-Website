@@ -55,8 +55,8 @@ const quizData = [
     {
         id: "GR001",
         question: "Which of the following is a noun?",
-        options: ["Beautiful", "Honesty", "Quickly", "Run"],
-        answer: 1,
+        options: ["Beautiful", "Quickly", "Run", "Honesty"],
+        answer: 3,
         explanation: "Honesty is a noun because it names a quality or state.",
         example: "Honesty is the best policy."
     },
@@ -64,8 +64,8 @@ const quizData = [
     {
         id: "GR002",
         question: "Which word is a pronoun?",
-        options: ["Rahim", "Book", "They", "Beautiful"],
-        answer: 2,
+        options: ["Rahim", "Book", "Beautiful", "They"],
+        answer: 3,
         explanation: "They is a pronoun because it is used in place of nouns.",
         example: "They are going to school."
     },
