@@ -20,13 +20,13 @@ const FACEBOOK_POST_URL =
 // ============================================================
 
 const sounds = {
-    start: new Audio("Sounds/Start.wav"),
-    correct: new Audio("Sounds/Correct.wav"),
-    wrong: new Audio("Sounds/Wrong.wav"),
-    tryAgain: new Audio("Sounds/TryAgain.wav"),
-    success: new Audio("Sounds/Success.wav"),
-    victory: new Audio("Sounds/Victory.wav"),
-    complete: new Audio("Sounds/Complete.wav")
+    start: new Audio("../chapter-0001/Sounds/Start.wav"),
+    correct: new Audio("../chapter-0001/Sounds/Correct.wav"),
+    wrong: new Audio("../chapter-0001/Sounds/Wrong.wav"),
+    tryAgain: new Audio("../chapter-0001/Sounds/TryAgain.wav"),
+    success: new Audio("../chapter-0001/Sounds/Success.wav"),
+    victory: new Audio("../chapter-0001/Sounds/Victory.wav"),
+    complete: new Audio("../chapter-0001/Sounds/Complete.wav")
 };
 
 
