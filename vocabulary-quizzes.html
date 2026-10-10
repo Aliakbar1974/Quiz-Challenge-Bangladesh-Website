@@ -46,4 +46,31 @@ header{text-align:center;padding:42px 0 24px}h1{font-size:clamp(29px,5vw,45px);m
 <div class="home"><a href="index.html">← Back to Quiz Home</a></div>
 </main>
 <footer>© 2026 Quiz Challenge Bangladesh · <a href="about.html">About</a> · <a href="privacy-policy.html">Privacy</a> · <a href="disclaimer.html">Disclaimer</a> · <a href="contact.html">Contact</a></footer>
+<script>
+/* Automatically list vocabulary quizzes from the dedicated source repository. */
+(async function syncVocabularyQuizLibrary() {
+  const api = "https://api.github.com/repos/Aliakbar1974/quiz-challenge-bangladesh/git/trees/main?recursive=1";
+  const base = "https://aliakbar1974.github.io/quiz-challenge-bangladesh/";
+  try {
+    const response = await fetch(api, { headers: { "Accept": "application/vnd.github+json" } });
+    if (!response.ok) throw new Error("GitHub API unavailable");
+    const data = await response.json();
+    const files = new Set((data.tree || []).filter(x => x.type === "blob").map(x => x.path));
+    const quizzes = [...files].map(path => {
+      const match = path.match(/^(Vocabulary-Quiz-(\d+))\/index\.html$/i);
+      return match && { folder: match[1], number: Number(match[2]) };
+    }).filter(Boolean).sort((a,b) => a.number - b.number);
+    /* Quiz 01 is the repository-root game, not a numbered folder. */
+    if (files.has("index.html") && !quizzes.some(q => q.number === 1)) quizzes.unshift({folder:"",number:1});
+    const heading = [...document.querySelectorAll("h2")].find(el => el.textContent.trim() === "Vocabulary Quiz Library");
+    const grid = heading && heading.parentElement.querySelector(".grid");
+    if (!grid || !quizzes.length) return;
+    grid.innerHTML = quizzes.map(q => {
+      const label = "Vocabulary Quiz " + String(q.number).padStart(2,"0");
+      const href = q.folder ? base + encodeURIComponent(q.folder) + "/" : base;
+      return '<article class="card"><h3>' + label + '</h3><p>Practise English word meanings in context and review the examples after answering.</p><a class="btn" href="' + href + '">Open Quiz</a></article>';
+    }).join("");
+  } catch (error) { console.warn("Vocabulary quiz list kept its saved fallback.", error); }
+})();
+</script>
 </body></html>
