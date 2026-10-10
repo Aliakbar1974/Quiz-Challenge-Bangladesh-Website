@@ -36,4 +36,37 @@ header{text-align:center;padding:42px 0 24px}h1{font-size:clamp(29px,5vw,45px);m
 <div class="home"><a href="index.html">← Back to Quiz Home</a></div>
 </main>
 <footer>© 2026 Quiz Challenge Bangladesh · <a href="about.html">About</a> · <a href="privacy-policy.html">Privacy</a> · <a href="disclaimer.html">Disclaimer</a> · <a href="contact.html">Contact</a></footer>
+<script>
+/* Discover grammar chapters in the English-Grammar source repository. */
+(async function syncEnglishGrammarLibrary() {
+  const api = "https://api.github.com/repos/Aliakbar1974/English-Grammar/git/trees/main?recursive=1";
+  const base = "https://aliakbar1974.github.io/English-Grammar/";
+  try {
+    const response = await fetch(api, { headers: { "Accept": "application/vnd.github+json" } });
+    if (!response.ok) throw new Error("GitHub API unavailable");
+    const data = await response.json();
+    const paths = (data.tree || []).filter(x => x.type === "blob").map(x => x.path);
+    const chapterMap = new Map();
+    for (const path of paths) {
+      const match = path.match(/^(Level-\d+)\/(Chapter-\d+)\/index\.html$/i);
+      if (!match) continue;
+      const level = match[1], chapter = match[2];
+      if (!chapterMap.has(level)) chapterMap.set(level, new Set());
+      chapterMap.get(level).add(chapter);
+    }
+    if (!chapterMap.size) return;
+    const oldHeading = [...document.querySelectorAll("h2")].find(el => el.textContent.trim() === "Current Level-01 chapters");
+    const targetSection = oldHeading && oldHeading.closest(".section");
+    if (!targetSection) return;
+    const sections = [...chapterMap.entries()].sort((a,b) => a[0].localeCompare(b[0], undefined, {numeric:true})).map(([level, chapters]) => {
+      const cards = [...chapters].sort((a,b) => a.localeCompare(b, undefined, {numeric:true})).map(chapter => {
+        const n = Number((chapter.match(/\d+/) || ["0"])[0]);
+        return '<article class="card"><h2>' + chapter + '</h2><p>Grammar MCQ practice with Learning Mode and Exam Mode.</p><p><strong>Chapter practice</strong></p><a class="btn" href="' + base + level + '/' + chapter + '/">Open Chapter</a></article>';
+      }).join("");
+      return '<section class="section"><h2>' + level + ' Chapters</h2><p>Choose a chapter to practise the grammar topics in this level.</p><div class="grid">' + cards + '</div></section>';
+    }).join("");
+    targetSection.outerHTML = sections;
+  } catch (error) { console.warn("Grammar chapter list kept its saved fallback.", error); }
+})();
+</script>
 </body></html>
