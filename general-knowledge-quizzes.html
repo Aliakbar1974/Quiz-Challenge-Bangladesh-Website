@@ -59,60 +59,56 @@ header{text-align:center;padding:42px 0 24px}h1{font-size:clamp(29px,5vw,45px);m
 <footer>© 2026 Quiz Challenge Bangladesh · <a href="about.html">About</a> · <a href="privacy-policy.html">Privacy</a> · <a href="disclaimer.html">Disclaimer</a> · <a href="contact.html">Contact</a></footer>
 
 <script>
-/* Keep this library in sync with quiz folders in the General-Knowledge repository.
-   The existing cards remain visible as a fallback if GitHub's API is unavailable. */
+/* Automatically group all numbered subject quizzes from the General-Knowledge repository. */
 (async function syncGeneralKnowledgeQuizzes() {
   const api = "https://api.github.com/repos/Aliakbar1974/General-Knowledge/git/trees/main?recursive=1";
-  const pagesBase = "https://aliakbar1974.github.io/General-Knowledge/";
+  const base = "https://aliakbar1974.github.io/General-Knowledge/";
   try {
     const response = await fetch(api, { headers: { "Accept": "application/vnd.github+json" } });
-    if (!response.ok) throw new Error("GitHub API response: " + response.status);
+    if (!response.ok) throw new Error("GitHub API unavailable");
     const data = await response.json();
-    if (!Array.isArray(data.tree)) throw new Error("Quiz directory listing unavailable");
-
-    const folders = new Map();
-    for (const item of data.tree) {
-      if (item.type !== "blob" || !/\/index\.html$/i.test(item.path)) continue;
-      const parts = item.path.split("/");
-      if (parts.length !== 2) continue;
-      const folder = parts[0];
-      const match = folder.match(/^(History|Geography)-Quiz-(\d+)$/i);
+    const files = new Set((data.tree || []).filter(x => x.type === "blob").map(x => x.path));
+    const groups = new Map();
+    for (const path of files) {
+      const match = path.match(/^(.+?-Quiz-(\d+))\/index\.html$/i);
       if (!match) continue;
-      const category = /^history$/i.test(match[1]) ? "history" : "geography";
-      if (!folders.has(category)) folders.set(category, []);
-      folders.get(category).push({ folder, number: Number(match[2]) });
+      const folder = match[1];
+      const split = folder.match(/^(.+?)-Quiz-(\d+)$/i);
+      if (!split) continue;
+      const category = split[1].replace(/-/g, " ");
+      const number = Number(split[2]);
+      if (!groups.has(category)) groups.set(category, []);
+      groups.get(category).push({ folder, number });
     }
-
-    const config = [
-      { key: "history", heading: "Available History Quizzes", description: "Practise historical MCQs and review important events, people, and dates." },
-      { key: "geography", heading: "Available Geography Quizzes", description: "Practise geography facts and revisit the places, physical features, and concepts behind each answer." }
-    ];
-    for (const item of config) {
-      const heading = Array.from(document.querySelectorAll("h2")).find(h => h.textContent.trim() === item.heading);
-      const section = heading && heading.closest(".section");
-      const grid = section && section.querySelector(".grid");
-      if (!grid) continue;
-      const quizzes = (folders.get(item.key) || []).sort((a, b) => a.number - b.number);
-      if (!quizzes.length) continue;
-      grid.replaceChildren();
-      for (const quiz of quizzes) {
-        const article = document.createElement("article");
-        article.className = "card";
-        const title = document.createElement("h2");
-        title.textContent = (item.key === "history" ? "History Quiz " : "Geography Quiz ") + String(quiz.number).padStart(2, "0");
-        const description = document.createElement("p");
-        description.textContent = item.description;
-        const link = document.createElement("a");
-        link.className = "btn";
-        link.href = pagesBase + encodeURIComponent(quiz.folder) + "/";
-        link.textContent = "Open Quiz";
-        article.append(title, description, link);
-        grid.appendChild(article);
-      }
-    }
-  } catch (error) {
-    console.warn("Quiz list sync failed; showing the saved quiz links instead.", error);
-  }
+    if (!groups.size) return;
+    const existing = [...document.querySelectorAll("h2")].filter(el =>
+      /^Available (History|Geography) Quizzes$/i.test(el.textContent.trim())
+    ).map(el => el.closest(".section")).filter(Boolean);
+    if (!existing.length) return;
+    const container = document.createElement("div");
+    [...groups.entries()].sort((a,b) => a[0].localeCompare(b[0])).forEach(([category, quizzes]) => {
+      quizzes.sort((a,b) => a.number - b.number);
+      const section = document.createElement("section");
+      section.className = "section";
+      const heading = document.createElement("h2");
+      heading.textContent = "Available " + category + " Quizzes";
+      section.appendChild(heading);
+      const intro = document.createElement("p");
+      intro.textContent = "Choose a " + category.toLowerCase() + " quiz, answer the MCQs, and review the feedback.";
+      section.appendChild(intro);
+      const grid = document.createElement("div");
+      grid.className = "grid";
+      grid.innerHTML = quizzes.map(q => {
+        const label = category + " Quiz " + String(q.number).padStart(2, "0");
+        return '<article class="card"><h2>' + label + '</h2><p>Practise general knowledge and review important facts after answering.</p><a class="btn" href="' + base + encodeURIComponent(q.folder) + '/">Open Quiz</a></article>';
+      }).join("");
+      section.appendChild(grid);
+      container.appendChild(section);
+    });
+    const first = existing[0];
+    first.replaceWith(container);
+    existing.slice(1).forEach(section => section.remove());
+  } catch (error) { console.warn("General Knowledge list kept its saved fallback.", error); }
 })();
 </script>
 
