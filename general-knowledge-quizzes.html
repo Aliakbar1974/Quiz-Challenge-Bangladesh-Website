@@ -57,4 +57,63 @@ header{text-align:center;padding:42px 0 24px}h1{font-size:clamp(29px,5vw,45px);m
 <div class="home"><a href="index.html">← Back to Quiz Home</a></div>
 </main>
 <footer>© 2026 Quiz Challenge Bangladesh · <a href="about.html">About</a> · <a href="privacy-policy.html">Privacy</a> · <a href="disclaimer.html">Disclaimer</a> · <a href="contact.html">Contact</a></footer>
+
+<script>
+/* Keep this library in sync with quiz folders in the General-Knowledge repository.
+   The existing cards remain visible as a fallback if GitHub's API is unavailable. */
+(async function syncGeneralKnowledgeQuizzes() {
+  const api = "https://api.github.com/repos/Aliakbar1974/General-Knowledge/git/trees/main?recursive=1";
+  const pagesBase = "https://aliakbar1974.github.io/General-Knowledge/";
+  try {
+    const response = await fetch(api, { headers: { "Accept": "application/vnd.github+json" } });
+    if (!response.ok) throw new Error("GitHub API response: " + response.status);
+    const data = await response.json();
+    if (!Array.isArray(data.tree)) throw new Error("Quiz directory listing unavailable");
+
+    const folders = new Map();
+    for (const item of data.tree) {
+      if (item.type !== "blob" || !/\/index\.html$/i.test(item.path)) continue;
+      const parts = item.path.split("/");
+      if (parts.length !== 2) continue;
+      const folder = parts[0];
+      const match = folder.match(/^(History|Geography)-Quiz-(\d+)$/i);
+      if (!match) continue;
+      const category = /^history$/i.test(match[1]) ? "history" : "geography";
+      if (!folders.has(category)) folders.set(category, []);
+      folders.get(category).push({ folder, number: Number(match[2]) });
+    }
+
+    const config = [
+      { key: "history", heading: "Available History Quizzes", description: "Practise historical MCQs and review important events, people, and dates." },
+      { key: "geography", heading: "Available Geography Quizzes", description: "Practise geography facts and revisit the places, physical features, and concepts behind each answer." }
+    ];
+    for (const item of config) {
+      const heading = Array.from(document.querySelectorAll("h2")).find(h => h.textContent.trim() === item.heading);
+      const section = heading && heading.closest(".section");
+      const grid = section && section.querySelector(".grid");
+      if (!grid) continue;
+      const quizzes = (folders.get(item.key) || []).sort((a, b) => a.number - b.number);
+      if (!quizzes.length) continue;
+      grid.replaceChildren();
+      for (const quiz of quizzes) {
+        const article = document.createElement("article");
+        article.className = "card";
+        const title = document.createElement("h2");
+        title.textContent = (item.key === "history" ? "History Quiz " : "Geography Quiz ") + String(quiz.number).padStart(2, "0");
+        const description = document.createElement("p");
+        description.textContent = item.description;
+        const link = document.createElement("a");
+        link.className = "btn";
+        link.href = pagesBase + encodeURIComponent(quiz.folder) + "/";
+        link.textContent = "Open Quiz";
+        article.append(title, description, link);
+        grid.appendChild(article);
+      }
+    }
+  } catch (error) {
+    console.warn("Quiz list sync failed; showing the saved quiz links instead.", error);
+  }
+})();
+</script>
+
 </body></html>
