@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7-Day Quiz Practice Tracker | Quiz Challenge Bangladesh</title>
+<meta name="description" content="Use this free seven-day study tracker to plan quiz practice, review mistakes, and return to difficult questions.">
+<link rel="canonical" href="https://quizchallengebd.com/practice-tracker.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="7-Day Quiz Practice Tracker | Quiz Challenge Bangladesh">
+<meta property="og:description" content="A simple weekly checklist for focused MCQ practice, mistake review, and spaced repetition.">
+<meta property="og:url" content="https://quizchallengebd.com/practice-tracker.html">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Sans Bengali",sans-serif;line-height:1.7;background:#f7fbff;color:#1f2937}
+.wrap{max-width:900px;width:92%;margin:auto}nav{background:#fff;border-bottom:1px solid #e2e8f0}nav .nav{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;padding:13px 0}nav a, a{color:#1d4ed8}nav a{text-decoration:none;font-weight:700;font-size:14px}
+header{text-align:center;padding:36px 0 20px}h1{font-size:clamp(28px,5vw,42px);line-height:1.2;margin:0 0 12px}.lead{color:#475569;max-width:740px;margin:auto}
+.card{background:#fff;border:1px solid #dbe4ee;border-radius:14px;padding:22px;margin:18px 0}.progress-track{height:12px;background:#e2e8f0;border-radius:99px;overflow:hidden}.progress-fill{height:100%;width:0;background:#2563eb;transition:width .2s}
+.day{border:1px solid #e2e8f0;border-radius:12px;padding:16px;margin:14px 0;background:#fff}.day h2{margin:0 0 6px;font-size:20px}.day p{margin:0 0 10px;color:#475569}.task{display:flex;gap:10px;align-items:flex-start;margin:10px 0}.task input{margin-top:6px;min-width:18px;min-height:18px}.task label{cursor:pointer}.actions{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}.btn{border:0;border-radius:8px;padding:11px 15px;font-weight:700;cursor:pointer;font-size:14px}.primary{background:#2563eb;color:#fff}.secondary{background:#e2e8f0;color:#1f2937}.small{color:#64748b;font-size:13px}textarea{width:100%;min-height:95px;padding:12px;border:1px solid #cbd5e1;border-radius:8px;font:inherit}footer{text-align:center;padding:25px;color:#64748b;font-size:14px;margin-top:28px;border-top:1px solid #e2e8f0;background:#fff}
+@media print{nav,.actions,.no-print,footer{display:none!important}body{background:#fff}.wrap{width:100%;max-width:none}.card,.day{break-inside:avoid;box-shadow:none}header{padding:10px 0}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a href="index.html">Home</a><a href="bangladesh-quizzes.html">Bangladesh Quiz</a><a href="vocabulary-quizzes.html">Vocabulary</a><a href="english-grammar-quizzes.html">Grammar</a><a href="general-knowledge-quizzes.html">General Knowledge</a><a href="study-guides.html">Study Guides</a><a href="about.html">About</a><a href="contact.html">Contact</a></div></nav>
+<header><div class="wrap"><h1>7-Day Quiz Practice Tracker</h1><p class="lead">Build a habit of learning, testing yourself, reviewing mistakes, and returning to difficult questions. A small, repeatable routine is more useful than rushing through questions only to collect a score.</p></div></header>
+<main class="wrap">
+<section class="card">
+<h2>Your weekly progress</h2>
+<p id="progress-label" aria-live="polite">0 of 21 activities completed</p>
+<div class="progress-track" role="progressbar" aria-label="Weekly activities completed" aria-valuemin="0" aria-valuemax="21" aria-valuenow="0" id="progressbar"><div class="progress-fill" id="progress-fill"></div></div>
+<p class="small">Your checklist and notes are saved in this browser on this device. They are not sent to the website. Use Print to keep a paper copy or save this tracker as a PDF.</p>
+</section>
+<section id="days">
+<div class="day"><h2>Day 1 — Choose one topic</h2><p>Start small and set a clear goal.</p>
+<div class="task"><input type="checkbox" id="d1a"><label for="d1a">Choose one topic: grammar, vocabulary, Bangladesh Studies, or general knowledge.</label></div>
+<div class="task"><input type="checkbox" id="d1b"><label for="d1b">Read the relevant study guide or review the main rule/facts.</label></div>
+<div class="task"><input type="checkbox" id="d1c"><label for="d1c">Write one thing you want to understand better.</label></div></div>
+<div class="day"><h2>Day 2 — Test your recall</h2><p>Try answering before looking at explanations.</p>
+<div class="task"><input type="checkbox" id="d2a"><label for="d2a">Complete a short quiz without checking answers in advance.</label></div>
+<div class="task"><input type="checkbox" id="d2b"><label for="d2b">Mark answers that felt uncertain, even if they were correct.</label></div>
+<div class="task"><input type="checkbox" id="d2c"><label for="d2c">Record the two or three questions that need another look.</label></div></div>
+<div class="day"><h2>Day 3 — Learn from mistakes</h2><p>Understand why the answer is right, not only its letter.</p>
+<div class="task"><input type="checkbox" id="d3a"><label for="d3a">Read explanations for incorrect and uncertain answers.</label></div>
+<div class="task"><input type="checkbox" id="d3b"><label for="d3b">Explain the correct answer in your own words.</label></div>
+<div class="task"><input type="checkbox" id="d3c"><label for="d3c">Check any doubtful factual claim against a reliable source.</label></div></div>
+<div class="day"><h2>Day 4 — Apply what you learned</h2><p>Turn recognition into understanding.</p>
+<div class="task"><input type="checkbox" id="d4a"><label for="d4a">Write an original sentence using a new vocabulary word or grammar rule.</label></div>
+<div class="task"><input type="checkbox" id="d4b"><label for="d4b">Compare two similar facts, concepts, or answer choices.</label></div>
+<div class="task"><input type="checkbox" id="d4c"><label for="d4c">Explain one difficult idea without reading your notes.</label></div></div>
+<div class="day"><h2>Day 5 — Re-test</h2><p>Check what you can remember after a delay.</p>
+<div class="task"><input type="checkbox" id="d5a"><label for="d5a">Attempt the same topic again without looking at previous answers.</label></div>
+<div class="task"><input type="checkbox" id="d5b"><label for="d5b">Compare your understanding, not just your score, with the first attempt.</label></div>
+<div class="task"><input type="checkbox" id="d5c"><label for="d5c">Choose one remaining weak point for focused practice.</label></div></div>
+<div class="day"><h2>Day 6 — Mix and connect</h2><p>Practise choosing which knowledge applies.</p>
+<div class="task"><input type="checkbox" id="d6a"><label for="d6a">Review a few questions from this topic and one earlier topic.</label></div>
+<div class="task"><input type="checkbox" id="d6b"><label for="d6b">Notice whether mixed practice makes any topic harder to recall.</label></div>
+<div class="task"><input type="checkbox" id="d6c"><label for="d6c">Add new mistakes or confusing facts to your review notes.</label></div></div>
+<div class="day"><h2>Day 7 — Reflect and plan the next week</h2><p>Finish by choosing a sensible next step.</p>
+<div class="task"><input type="checkbox" id="d7a"><label for="d7a">Summarise three things you learned this week.</label></div>
+<div class="task"><input type="checkbox" id="d7b"><label for="d7b">Identify one topic that needs another review next week.</label></div>
+<div class="task"><input type="checkbox" id="d7c"><label for="d7c">Choose the next topic and set a realistic practice goal.</label></div></div>
+</section>
+<section class="card">
+<h2>My review notes</h2>
+<label for="notes"><strong>What was confusing? What should I revisit?</strong></label>
+<textarea id="notes" placeholder="Example: I confused two similar words. I will compare their meanings and test myself again tomorrow."></textarea>
+<div class="actions no-print"><button class="btn primary" id="print-btn" type="button">Print / Save as PDF</button><button class="btn secondary" id="reset-btn" type="button">Reset this week's checklist</button></div>
+<p id="save-status" class="small" aria-live="polite">Progress is stored locally in this browser when available.</p>
+</section>
+<section class="card">
+<h2>Continue practising</h2>
+<ul><li><a href="study-guides.html">Read the Study Guides</a> before starting a new topic.</li><li><a href="english-grammar-quizzes.html">Practise English Grammar</a>.</li><li><a href="vocabulary-quizzes.html">Practise English Vocabulary</a>.</li><li><a href="bangladesh-quizzes.html">Practise Bangladesh Studies</a>.</li><li><a href="general-knowledge-quizzes.html">Practise General Knowledge</a>.</li></ul>
+<p>Use quiz scores as feedback, not as a guarantee of exam results. For important facts, compare your learning with authoritative references and current textbooks.</p>
+</section>
+</main>
+<footer>© 2026 Quiz Challenge Bangladesh · <a href="editorial-standards.html">Editorial Standards</a> · <a href="privacy-policy.html">Privacy</a> · <a href="contact.html">Contact</a></footer>
+<script>
+(function(){
+  const checks = Array.from(document.querySelectorAll('#days input[type="checkbox"]'));
+  const notes = document.getElementById('notes');
+  const label = document.getElementById('progress-label');
+  const fill = document.getElementById('progress-fill');
+  const bar = document.getElementById('progressbar');
+  const status = document.getElementById('save-status');
+  const key = 'qcb-practice-tracker-v1';
+  function render(){
+    const count = checks.filter(c=>c.checked).length;
+    label.textContent = count + ' of ' + checks.length + ' activities completed';
+    fill.style.width = (count/checks.length*100) + '%';
+    bar.setAttribute('aria-valuenow', String(count));
+  }
+  function save(){
+    render();
+    try {
+      const state = {checks: checks.map(c=>c.checked), notes: notes.value};
+      localStorage.setItem(key, JSON.stringify(state));
+      status.textContent = 'Progress saved in this browser on this device.';
+    } catch(e) {
+      status.textContent = 'This browser could not save progress. You can still use Print / Save as PDF.';
+    }
+  }
+  try {
+    const saved = JSON.parse(localStorage.getItem(key) || 'null');
+    if(saved && Array.isArray(saved.checks)) checks.forEach((c,i)=>c.checked=Boolean(saved.checks[i]));
+    if(saved && typeof saved.notes==='string') notes.value=saved.notes;
+  } catch(e) {}
+  checks.forEach(c=>c.addEventListener('change',save));
+  notes.addEventListener('input',save);
+  document.getElementById('print-btn').addEventListener('click',()=>window.print());
+  document.getElementById('reset-btn').addEventListener('click',()=>{
+    if(!window.confirm('Reset this week’s checklist and notes in this browser?')) return;
+    checks.forEach(c=>c.checked=false);
+    notes.value='';
+    try { localStorage.removeItem(key); } catch(e) {}
+    render();
+    status.textContent='Checklist reset in this browser.';
+  });
+  render();
+})();
+</script>
+</body>
+</html>
