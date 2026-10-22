@@ -29,3 +29,10 @@ This repository contains the main website for https://quizchallengebd.com/, incl
 ## Important
 
 Do not copy the same quiz into multiple repositories just to make it appear in a library. Keep one source of truth for each quiz category. The main website should link to quizzes from their correct repository. When changing quiz folder naming conventions, update the matching library discovery script too.
+
+## Learning resources
+
+- Resource library: https://quizchallengebd.com/Resources/
+- First General Knowledge study guide: https://quizchallengebd.com/Resources/General-Knowledge/
+
+The resource library is designed to prioritise useful, reviewed educational content over page count. Add new lesson pages only when they can provide meaningful explanations, examples, checked facts, and links to relevant practice. Keep the shared navigation and internal links consistent when adding new resource categories.
