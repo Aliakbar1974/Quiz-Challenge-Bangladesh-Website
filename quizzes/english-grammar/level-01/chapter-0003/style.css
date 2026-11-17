@@ -1221,3 +1221,11 @@ body{display:block;min-height:100vh;padding:0!important;background:#071c22}
 .site-context h2,.site-context h3{color:#123b4a;margin-top:0}.site-context p,.site-context li{color:#46545b}.site-context ul{padding-left:22px}
 .site-footer{max-width:800px;margin:0 auto;padding:22px 20px 35px;text-align:center;color:#d8e5e2}.site-footer a{color:#f4d35e;text-decoration:none;font-weight:700}
 @media(max-width:650px){.site-nav{justify-content:center;text-align:center}.site-header nav{justify-content:center}.site-context{margin:20px 12px;padding:20px 17px}}
+
+
+/* Standard post-quiz navigation */
+.result-navigation{display:grid;gap:10px;margin-top:16px}
+.result-navigation .nav-btn{display:block;width:100%;min-height:50px;padding:14px 16px;border:0;border-radius:10px;text-align:center;text-decoration:none;font-weight:700;box-sizing:border-box}
+.result-navigation .level-btn{background:#006a4e;color:#fff}
+.result-navigation .levels-btn{background:#334155;color:#fff}
+.result-navigation .home-btn{background:#7c3aed;color:#fff}
