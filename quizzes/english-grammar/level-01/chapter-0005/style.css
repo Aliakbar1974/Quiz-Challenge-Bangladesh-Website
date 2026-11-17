@@ -1214,3 +1214,10 @@ main {
 
 /* Main-site educational context */
 .site-context{width:100%;background:#fff;color:#1f2937;border-bottom:1px solid #dbe4ea;padding:12px 20px;font-family:Arial,sans-serif}.site-context-inner{max-width:1000px;margin:auto;display:flex;justify-content:space-between;gap:18px;align-items:center;flex-wrap:wrap}.site-context a{color:#2563eb;text-decoration:none;font-weight:700}.site-context nav{display:flex;gap:14px;flex-wrap:wrap}.chapter-intro{width:100%;max-width:900px;margin:20px auto;padding:20px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:18px;color:#fff;font-family:Arial,sans-serif;line-height:1.7}.chapter-intro h2{margin:0 0 10px;font-size:clamp(22px,4vw,32px)}.chapter-intro p{margin:8px 0}.site-context-footer{max-width:900px;margin:25px auto 0;padding:20px;text-align:center;color:#d8e5e2;font-family:Arial,sans-serif;line-height:1.7}.site-context-footer a{color:#8ec5ff;text-decoration:none;font-weight:700}@media(max-width:650px){.site-context-inner{justify-content:center;text-align:center}.site-context nav{justify-content:center}.chapter-intro{margin:15px auto;padding:16px}}
+
+/* Standard post-quiz navigation */
+.result-navigation{display:grid;gap:10px;margin-top:16px}
+.result-navigation .nav-btn{display:block;width:100%;min-height:50px;padding:14px 16px;border:0;border-radius:10px;text-align:center;text-decoration:none;font-weight:700;box-sizing:border-box}
+.result-navigation .level-btn{background:#006a4e;color:#fff}
+.result-navigation .levels-btn{background:#334155;color:#fff}
+.result-navigation .home-btn{background:#7c3aed;color:#fff}
