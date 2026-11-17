@@ -14,6 +14,64 @@ This is the working control list for the 7,000-item Vocabulary Library. Before p
 
 ## Published in the new library
 
+**Level 1 — Batch 002 (50 unique headwords)**
+
+1. Postpone
+2. Predict
+3. Prosper
+4. Reverse
+5. Roam
+6. Segment
+7. Seize
+8. Shatter
+9. Simulate
+10. Skim
+11. Slap
+12. Soar
+13. Squash
+14. Strain
+15. Strive
+16. Tumble
+17. Ultimately
+18. Warrant
+19. Adjacent
+20. Absorb
+21. Accumulate
+22. Agitate
+23. Aglow
+24. Ailment
+25. Alleviate
+26. Allure
+27. Aloof
+28. Amateur
+29. Amicable
+30. Amnesia
+31. Adore
+32. Adroit
+33. Affluent
+34. Aggravate
+35. Amplify
+36. Appraise
+37. Arrogant
+38. Aspire
+39. Astound
+40. Astray
+41. Audacious
+42. Augment
+43. Autonomous
+44. Aversion
+45. Baffle
+46. Beneficiary
+47. Bewilder
+48. Bicker
+49. Blunder
+50. Brawl
+
+- Source: uploaded `Vocabulary.docx`, continuation of the Level 1/basic vocabulary list.
+- The source list contains the form “Absorbed”; the entry is presented under the dictionary headword “Absorb”.
+- This batch contains 50 unique headwords and 150 English example sentences with Bengali translations.
+
+
 **Level 1 — Batch 001 (50 unique headwords)**
 
 1. Alert
@@ -106,11 +164,11 @@ These entries already exist in the former Chapter 01 and Chapter 02 pages. They 
 
 ## Progress accounting
 
-- New-library published items: **50 / 7,000**
+- New-library published items: **100 / 7,000**
 - Legacy items reserved for migration: **27**
-- Published new-library items in this register: **50 unique headwords**
+- Published new-library items in this register: **100 unique headwords**
 - Phrasal verbs published in the new library: **0**
-- Remaining new-library target: **6,950 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
+- Remaining new-library target: **6,900 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
 
 ## Next batch workflow
 
