@@ -1213,3 +1213,10 @@ main {
    ========================================================= */
 
 .site-header{background:#fff;color:#1f2937;border-bottom:1px solid #dbe4ea;padding:14px 20px}.site-nav{max-width:980px;margin:auto;display:flex;gap:18px;justify-content:space-between;align-items:center;flex-wrap:wrap}.site-header a{color:#0b6b55;text-decoration:none;font-weight:800}.site-header nav{display:flex;gap:14px;flex-wrap:wrap}.site-context{max-width:800px;margin:28px auto;padding:24px 25px;background:#fff;color:#24323a;border-radius:18px;line-height:1.75;box-shadow:0 10px 30px rgba(0,0,0,.16)}.site-context h2,.site-context h3{color:#123b4a}.site-context p,.site-context li{color:#46545b}.site-context ul{padding-left:22px}.site-footer{max-width:800px;margin:0 auto;padding:22px 20px 35px;text-align:center;color:#d8e5e2}.site-footer a{color:#f4d35e;text-decoration:none;font-weight:700}@media(max-width:650px){.site-nav{justify-content:center;text-align:center}.site-header nav{justify-content:center}.site-context{margin:20px 12px;padding:20px 17px}}
+
+/* Standard post-quiz navigation */
+.result-navigation{display:grid;gap:10px;margin-top:16px}
+.result-navigation .nav-btn{display:block;width:100%;min-height:50px;padding:14px 16px;border:0;border-radius:10px;text-align:center;text-decoration:none;font-weight:700;box-sizing:border-box}
+.result-navigation .level-btn{background:#006a4e;color:#fff}
+.result-navigation .levels-btn{background:#334155;color:#fff}
+.result-navigation .home-btn{background:#7c3aed;color:#fff}
