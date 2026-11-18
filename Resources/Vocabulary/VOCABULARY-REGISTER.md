@@ -460,7 +460,7 @@ These entries already exist in the former Chapter 01 and Chapter 02 pages. They 
 
 ## Next batch workflow
 
-- Batch 007 is published. The next unprocessed source item in the source sequence is “Abeyance” after the 50 retained entries in this batch; continue by checking the source and duplicate register.
+- Batch 007 is published. The next unprocessed source item in the advanced-vocabulary sequence is “Apathy” after “Antithesis”; continue by checking the source and duplicate register.
 
 For every proposed batch:
 - compare every candidate against this complete register;
