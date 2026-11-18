@@ -14,6 +14,63 @@ This is the working control list for the 7,000-item Vocabulary Library. Before p
 
 ## Published in the new library
 
+**Level 1 — Batch 004 (50 unique headwords)**
+
+1. Fraud
+2. Fret
+3. Frigid
+4. Futile
+5. Germinate
+6. Gist
+7. Glamorous
+8. Grievance
+9. Grouchy
+10. Grudge
+11. Hazy
+12. Hectic
+13. Hilarious
+14. Hoarse
+15. Hoax
+16. Humid
+17. Identical
+18. Ignorant
+19. Abate
+20. Abhor
+21. Abruptly
+22. Admonish
+23. Arduous
+24. Assuage
+25. Avarice
+26. Blandishment
+27. Blithe
+28. Castigate
+29. Cataclysm
+30. Clamorous
+31. Clemency
+32. Coerce
+33. Cogent
+34. Concoct
+35. Concord
+36. Concurrence
+37. Condone
+38. Confiscate
+39. Congeal
+40. Congenial
+41. Congestion
+42. Conjecture
+43. Conventional
+44. Credulous
+45. Creed
+46. Culpable
+47. Decrepit
+48. Deprecate
+49. Diffidence
+50. Discern
+
+- Source: uploaded `Vocabulary.docx`, continuing in source order immediately after “Foresee”.
+- This batch contains 50 unique headwords and 150 English example sentences with Bengali translations.
+
+
 **Level 1 — Batch 003 (50 unique headwords)**
 
 1. Brittle
@@ -221,15 +278,15 @@ These entries already exist in the former Chapter 01 and Chapter 02 pages. They 
 
 ## Progress accounting
 
-- New-library published items: **150 / 7,000**
+- New-library published items: **200 / 7,000**
 - Legacy items reserved for migration: **27**
-- Published new-library items in this register: **150 unique headwords**
+- Published new-library items in this register: **200 unique headwords**
 - Phrasal verbs published in the new library: **0**
-- Remaining new-library target: **6,850 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
+- Remaining new-library target: **6,800 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
 
 ## Next batch workflow
 
-- Batch 003 is published. The next source sequence begins with “Fraud” only after the completed “Foresee” entry; however, check both source documents and reserved legacy items before selecting the next 50 unique headwords.
+- Batch 004 is published. The next source sequence begins with “Congeal” already included in Batch 004; continue from “Disseminate” only after checking the remaining source sequence and duplicate register.
 
 For every proposed batch:
 - compare every candidate against this complete register;
