@@ -14,6 +14,65 @@ This is the working control list for the 7,000-item Vocabulary Library. Before p
 
 ## Published in the new library
 
+
+**Level 1 — Batch 007 (50 unique headwords)**
+
+1. Synopsis
+2. Taciturn
+3. Tamper
+4. Tentative
+5. Tepid
+6. Testify
+7. Throng
+8. Tolerance
+9. Touchy
+10. Tranquil
+11. Transform
+12. Traverse
+13. Treacherous
+14. Tributary
+15. Trivial
+16. Troupe
+17. Tumult
+18. Unanimous
+19. Uncouth
+20. Unsophisticated
+21. Vagabond
+22. Vanity
+23. Vehemence
+24. Vicarious
+25. Wayward
+26. Aberration
+27. Abeyance
+28. Abjure
+29. Abscond
+30. Accretion
+31. Acquiesce
+32. Acrimonious
+33. Acumen
+34. Adamant
+35. Admonition
+36. Aesthetic
+37. Affinity
+38. Aggrandize
+39. Alacrity
+40. Alienate
+41. Allegory
+42. Altruistic
+43. Amalgamate
+44. Ambivalence
+45. Ameliorate
+46. Anachronism
+47. Analogy
+48. Anomaly
+49. Antipathy
+50. Antithesis
+
+- Source: uploaded `Vocabulary.docx`, continuing after “Synchronize” with “Synopsis” and then the following source section; the remaining entries are drawn from the next advanced-vocabulary list in the same document.
+- Duplicate terms already published in Batches 001–006 and the reserved legacy list were excluded. The source's “Abhor” and repeated Level 5 items were not reintroduced.
+- This batch contains 150 English example sentences with Bengali translations.
+
+
 **Level 1 — Batch 006 (50 unique headwords)**
 
 1. Obstinate
@@ -393,15 +452,15 @@ These entries already exist in the former Chapter 01 and Chapter 02 pages. They 
 
 ## Progress accounting
 
-- New-library published items: **300 / 7,000**
+- New-library published items: **350 / 7,000**
 - Legacy items reserved for migration: **27**
-- Published new-library items in this register: **300 unique headwords**
+- Published new-library items in this register: **350 unique headwords**
 - Phrasal verbs published in the new library: **0**
-- Remaining new-library target: **6,700 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
+- Remaining new-library target: **6,650 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
 
 ## Next batch workflow
 
-- Batch 006 is published. The next unprocessed source item in the source sequence is “Synopsis”; continue by checking the next source section and duplicate register.
+- Batch 007 is published. The next unprocessed source item in the source sequence is “Abeyance” after the 50 retained entries in this batch; continue by checking the source and duplicate register.
 
 For every proposed batch:
 - compare every candidate against this complete register;
