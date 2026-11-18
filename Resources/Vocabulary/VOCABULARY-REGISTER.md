@@ -14,6 +14,63 @@ This is the working control list for the 7,000-item Vocabulary Library. Before p
 
 ## Published in the new library
 
+**Level 1 — Batch 003 (50 unique headwords)**
+
+1. Brittle
+2. Brutal
+3. Bully
+4. Callous
+5. Captive
+6. Captivate
+7. Chaos
+8. Chaste
+9. Cluttered
+10. Compassion
+11. Conceal
+12. Confide
+13. Crave
+14. Crude
+15. Curt
+16. Decent
+17. Deform
+18. Deliberately
+19. Demolish
+20. Depict
+21. Deprive
+22. Deride
+23. Deviate
+24. Dingy
+25. Discard
+26. Divulge
+27. Doze
+28. Drench
+29. Dubious
+30. Eccentric
+31. Emulate
+32. Endeavor
+33. Entice
+34. Envious
+35. Equitable
+36. Evolve
+37. Exasperate
+38. Exhaustive
+39. Exorbitant
+40. Expire
+41. Exploit
+42. Extensive
+43. Extinct
+44. Extravagance
+45. Exultant
+46. Fascinate
+47. Feud
+48. Flatter
+49. Flee
+50. Foresee
+
+- Source: uploaded `Vocabulary.docx`, continuation immediately after “Brawl” in the Level 1/basic sequence.
+- This batch contains 50 unique headwords and 150 English example sentences with Bengali translations.
+
+
 **Level 1 — Batch 002 (50 unique headwords)**
 
 1. Postpone
