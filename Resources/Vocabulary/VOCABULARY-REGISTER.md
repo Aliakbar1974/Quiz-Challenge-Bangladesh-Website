@@ -14,6 +14,64 @@ This is the working control list for the 7,000-item Vocabulary Library. Before p
 
 ## Published in the new library
 
+**Level 1 — Batch 006 (50 unique headwords)**
+
+1. Obstinate
+2. Obstruct
+3. Ominous
+4. Omit
+5. Oration
+6. Ordeal
+7. Outrageous
+8. Palatable
+9. Penetrate
+10. Perilous
+11. Conscientious
+12. Eloquence
+13. Elucidate
+14. Erudite
+15. Exacting
+16. Proximity
+17. Recluse
+18. Recollection
+19. Reconcile
+20. Reiterate
+21. Remnant
+22. Renowned
+23. Repel
+24. Reproach
+25. Resolute
+26. Restrain
+27. Retain
+28. Retard
+29. Retort
+30. Revenue
+31. Rustic
+32. Sagacity
+33. Scant
+34. Scornful
+35. Scrutiny
+36. Sever
+37. Shabby
+38. Simultaneous
+39. Sinuous
+40. Skeptical
+41. Sluggish
+42. Smolder
+43. Snatch
+44. Stale
+45. Static
+46. Stunt
+47. Subsequent
+48. Supersede
+49. Surmise
+50. Synchronize
+
+- Source: uploaded `Vocabulary.docx`, continuing in source order after “Obscure”.
+- Duplicate terms already present in earlier batches and the reserved legacy list were excluded; 50 new headwords retained.
+- This batch contains 150 English example sentences with Bengali translations.
+
+
 **Level 1 — Batch 005 (50 unique headwords)**
 
 1. Disseminate
@@ -335,15 +393,15 @@ These entries already exist in the former Chapter 01 and Chapter 02 pages. They 
 
 ## Progress accounting
 
-- New-library published items: **250 / 7,000**
+- New-library published items: **300 / 7,000**
 - Legacy items reserved for migration: **27**
-- Published new-library items in this register: **250 unique headwords**
+- Published new-library items in this register: **300 unique headwords**
 - Phrasal verbs published in the new library: **0**
-- Remaining new-library target: **6,750 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
+- Remaining new-library target: **6,700 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
 
 ## Next batch workflow
 
-- Batch 005 is published. The next source sequence begins after “Obscure”; continue by checking the next unprocessed source section and duplicate register.
+- Batch 006 is published. The next unprocessed source item in the source sequence is “Synopsis”; continue by checking the next source section and duplicate register.
 
 For every proposed batch:
 - compare every candidate against this complete register;
