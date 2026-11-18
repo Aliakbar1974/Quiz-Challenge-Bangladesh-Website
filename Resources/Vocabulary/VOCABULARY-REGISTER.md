@@ -15,6 +15,65 @@ This is the working control list for the 7,000-item Vocabulary Library. Before p
 ## Published in the new library
 
 
+**Level 1 — Batch 008 (50 unique headwords)**
+
+1. Apathy
+2. Apex
+3. Aphorism
+4. Aplastic
+5. Apparition
+6. Appease
+7. Apprehension
+8. Approbation
+9. Arbitrary
+10. Arcane
+11. Archetype
+12. Ardently
+13. Ascetic
+14. Asperity
+15. Assiduous
+16. Attenuate
+17. Audacity
+18. Auspicious
+19. Austere
+20. Authoritative
+21. Banal
+22. Banter
+23. Belie
+24. Belligerent
+25. Benevolent
+26. Benign
+27. Bereft
+28. Blatant
+29. Bolster
+30. Bombastic
+31. Boorish
+32. Brevity
+33. Burgeon
+34. Buttress
+35. Cacophony
+36. Cajole
+37. Calamity
+38. Candor
+39. Capitulate
+40. Capricious
+41. Catalyst
+42. Caustic
+43. Censure
+44. Chagrin
+45. Charlatan
+46. Chicanery
+47. Churlish
+48. Circuitous
+49. Circumlocution
+50. Circumspect
+
+- Source: uploaded `Vocabulary-2.docx`, page 31–34 numbered advanced vocabulary list (items 26–75). The already-published “Aversion” was excluded; “Circumspect” was added as the next source-list item to retain 50 unique headwords.
+- All 50 headwords were checked against Batches 001–007 and the reserved legacy list; no duplicates were retained.
+- This batch contains 150 English example sentences with Bengali translations.
+
+
+
 **Level 1 — Batch 007 (50 unique headwords)**
 
 1. Synopsis
@@ -452,15 +511,15 @@ These entries already exist in the former Chapter 01 and Chapter 02 pages. They 
 
 ## Progress accounting
 
-- New-library published items: **350 / 7,000**
+- New-library published items: **400 / 7,000**
 - Legacy items reserved for migration: **27**
-- Published new-library items in this register: **350 unique headwords**
+- Published new-library items in this register: **400 unique headwords**
 - Phrasal verbs published in the new library: **0**
-- Remaining new-library target: **6,650 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
+- Remaining new-library target: **6,600 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
 
 ## Next batch workflow
 
-- Batch 007 is published. The next unprocessed source item in the advanced-vocabulary sequence is “Apathy” after “Antithesis”; continue by checking the source and duplicate register.
+- Batch 008 is published. The next unprocessed source item in the numbered advanced-vocabulary sequence is “Cacophony” after “Circumspect”; continue by checking the source and duplicate register.
 
 For every proposed batch:
 - compare every candidate against this complete register;
