@@ -221,13 +221,15 @@ These entries already exist in the former Chapter 01 and Chapter 02 pages. They 
 
 ## Progress accounting
 
-- New-library published items: **100 / 7,000**
+- New-library published items: **150 / 7,000**
 - Legacy items reserved for migration: **27**
-- Published new-library items in this register: **100 unique headwords**
+- Published new-library items in this register: **150 unique headwords**
 - Phrasal verbs published in the new library: **0**
-- Remaining new-library target: **6,900 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
+- Remaining new-library target: **6,850 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
 
 ## Next batch workflow
+
+- Batch 003 is published. The next source sequence begins with “Fraud” only after the completed “Foresee” entry; however, check both source documents and reserved legacy items before selecting the next 50 unique headwords.
 
 For every proposed batch:
 - compare every candidate against this complete register;
