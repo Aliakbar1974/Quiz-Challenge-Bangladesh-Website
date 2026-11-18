@@ -14,6 +14,63 @@ This is the working control list for the 7,000-item Vocabulary Library. Before p
 
 ## Published in the new library
 
+**Level 1 — Batch 005 (50 unique headwords)**
+
+1. Disseminate
+2. Elusive
+3. Enervate
+4. Equivocal
+5. Eradicate
+6. Eulogy
+7. Expanse
+8. Expound
+9. Facile
+10. Furtive
+11. Garrulous
+12. Glib
+13. Hubbub
+14. Imminent
+15. Incessant
+16. Incidental
+17. Incisive
+18. Incredible
+19. Induce
+20. Inert
+21. Infested
+22. Inquisitive
+23. Integrate
+24. Intrepid
+25. Intricate
+26. Intrude
+27. Invariable
+28. Irritate
+29. Jeopardy
+30. Lament
+31. Lanky
+32. Laud
+33. Leisure
+34. Limpid
+35. Loathe
+36. Luminous
+37. Lustrous
+38. Malign
+39. Meddle
+40. Menace
+41. Merger
+42. Meticulous
+43. Molest
+44. Monstrous
+45. Mumble
+46. Nadir
+47. Negligent
+48. Numb
+49. Oblivion
+50. Obscure
+
+- Source: uploaded `Vocabulary.docx`, continuing in source order immediately after “Discern”.
+- This batch contains 50 unique headwords and 150 English example sentences with Bengali translations.
+
+
 **Level 1 — Batch 004 (50 unique headwords)**
 
 1. Fraud
@@ -278,15 +335,15 @@ These entries already exist in the former Chapter 01 and Chapter 02 pages. They 
 
 ## Progress accounting
 
-- New-library published items: **200 / 7,000**
+- New-library published items: **250 / 7,000**
 - Legacy items reserved for migration: **27**
-- Published new-library items in this register: **200 unique headwords**
+- Published new-library items in this register: **250 unique headwords**
 - Phrasal verbs published in the new library: **0**
-- Remaining new-library target: **6,800 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
+- Remaining new-library target: **6,750 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
 
 ## Next batch workflow
 
-- Batch 004 is published. The next source sequence begins with “Congeal” already included in Batch 004; continue from “Disseminate” only after checking the remaining source sequence and duplicate register.
+- Batch 005 is published. The next source sequence begins after “Obscure”; continue by checking the next unprocessed source section and duplicate register.
 
 For every proposed batch:
 - compare every candidate against this complete register;
