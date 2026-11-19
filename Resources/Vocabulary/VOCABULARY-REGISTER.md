@@ -14,6 +14,64 @@ This is the working control list for the 7,000-item Vocabulary Library. Before p
 
 ## Published in the new library
 
+**Level 1 — Batch 010 (50 unique headwords)**
+
+1. Denotation
+2. Depravity
+3. Derelict
+4. Derisive
+5. Despot
+6. Destitution
+7. Detriment
+8. Devoid
+9. Diatribe
+10. Dichotomy
+11. Didactic
+12. Disparage
+13. Disparate
+14. Dispassionate
+15. Dissemble
+16. Dissension
+17. Dissonance
+18. Distal
+19. Divergent
+20. Dogmatic
+21. Dormant
+22. Duplicity
+23. Ebullient
+24. Eccentricity
+25. Eclectic
+26. Efficacy
+27. Effrontery
+28. Effusive
+29. Egregious
+30. Egress
+31. Eloquent
+32. Embellish
+33. Empathy
+34. Empirical
+35. Encomium
+36. Endemic
+37. Enigma
+38. Enmity
+39. Ennui
+40. Ephemeral
+41. Epitome
+42. Equanimity
+43. Errorless
+44. Esoteric
+45. Espouse
+46. Ethereal
+47. Euphemism
+48. Evanescent
+49. Exacerbate
+50. Exemplary (source item 177; substituted for duplicate source item 148, Dubious)
+
+- Source: uploaded `Vocabulary-2.docx`, numbered advanced-vocabulary list, items 127–176; “Dubious” (item 148) was already published in Batch 003, so the next source item “Exemplary” (177) was used to complete 50 unique headwords.
+- All 50 headwords were checked against the published batches and reserved legacy list; no duplicate headwords were retained.
+- This batch contains 150 English example sentences with Bengali translations.
+
+
 **Level 1 — Batch 009 (50 unique headwords)**
 
 1. Circumvent
@@ -569,15 +627,15 @@ These entries already exist in the former Chapter 01 and Chapter 02 pages. They 
 
 ## Progress accounting
 
-- New-library published items: **450 / 7,000**
+- New-library published items: **500 / 7,000**
 - Legacy items reserved for migration: **27**
-- Published new-library items in this register: **450 unique headwords**
+- Published new-library items in this register: **500 unique headwords**
 - Phrasal verbs published in the new library: **0**
-- Remaining new-library target: **6,550 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
+- Remaining new-library target: **6,500 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
 
 ## Next batch workflow
 
-- Batch 009 is published. The next unprocessed source item in the numbered advanced-vocabulary sequence is “Denotation” (item 127), after “Denigrate” (item 126); continue by checking the source and duplicate register.
+- Batch 010 is published. The next unprocessed source item in the numbered advanced-vocabulary sequence is “Exigent” (item 178), after “Exemplary” (item 177); continue by checking the source and duplicate register.
 
 For every proposed batch:
 - compare every candidate against this complete register;
