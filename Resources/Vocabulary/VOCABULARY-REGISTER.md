@@ -14,6 +14,64 @@ This is the working control list for the 7,000-item Vocabulary Library. Before p
 
 ## Published in the new library
 
+**Level 1 — Batch 009 (50 unique headwords)**
+
+1. Circumvent
+2. Clandestine
+3. Coalesce
+4. Cognizant
+5. Colloquial
+6. Collusion
+7. Commensurate
+8. Compendium
+9. Complacency
+10. Compliant
+11. Complicity
+12. Conciliatory
+13. Condescend
+14. Conflagration
+15. Confluence
+16. Confound
+17. Congenital
+18. Connotation
+19. Consanguinity
+20. Consecrate
+21. Consensus
+22. Consternation
+23. Contentious
+24. Contrite
+25. Contumacious
+26. Conundrum
+27. Convulsion
+28. Copious
+29. Corroborate
+30. Coven
+31. Covert
+32. Craven
+33. Credence
+34. Criterion
+35. Cursory
+36. Curtail
+37. Cynicism
+38. Dearth
+39. Debacle
+40. Debilitate
+41. Debunk
+42. Decorum
+43. Deference
+44. Deleterious
+45. Delineate
+46. Delusion
+47. Demeanor
+48. Demise
+49. Demur
+50. Denigrate
+
+- Source: uploaded `Vocabulary-2.docx`, numbered advanced-vocabulary list, items 77–126.
+- The list continues directly after “Circumspect” (item 76). All 50 source items from 77 to 126 were retained in source order and checked against Batches 001–008 and the 27 reserved legacy headwords; no duplicate headwords were found in those registers.
+- This batch contains 150 English example sentences with Bengali translations.
+
+
 
 **Level 1 — Batch 008 (50 unique headwords)**
 
@@ -511,15 +569,15 @@ These entries already exist in the former Chapter 01 and Chapter 02 pages. They 
 
 ## Progress accounting
 
-- New-library published items: **400 / 7,000**
+- New-library published items: **450 / 7,000**
 - Legacy items reserved for migration: **27**
-- Published new-library items in this register: **400 unique headwords**
+- Published new-library items in this register: **450 unique headwords**
 - Phrasal verbs published in the new library: **0**
-- Remaining new-library target: **6,600 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
+- Remaining new-library target: **6,550 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
 
 ## Next batch workflow
 
-- Batch 008 is published. The next unprocessed source item in the numbered advanced-vocabulary sequence is “Cacophony” after “Circumspect”; continue by checking the source and duplicate register.
+- Batch 009 is published. The next unprocessed source item in the numbered advanced-vocabulary sequence is “Denotation” (item 127), after “Denigrate” (item 126); continue by checking the source and duplicate register.
 
 For every proposed batch:
 - compare every candidate against this complete register;
