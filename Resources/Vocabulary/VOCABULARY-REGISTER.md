@@ -1,5 +1,63 @@
 # Vocabulary Library — Master Duplicate Register
 
+**Level 1 — Batch 011 (50 unique headwords and phrases)**
+
+1. Exhilarating
+2. Exhort
+3. Exigent
+4. Exodus
+5. Exonerate
+6. Exotic
+7. Expansive
+8. Expedient
+9. Expedite
+10. Expiate
+11. Explicit
+12. Expostulate
+13. Expunge
+14. Expurgate
+15. Extant
+16. Extemporaneous
+17. Extenuate
+18. Extirpate
+19. Extol
+20. Extort
+21. Extradite
+22. Extraneous
+23. Extrapolate
+24. Extravagant
+25. Extricate
+26. Extrinsic
+27. Extrovert
+28. Exuberant
+29. Exude
+30. Exult
+31. Facet
+32. Ease off
+33. Eke out
+34. End up
+35. Enter into
+36. Face up to
+37. Fall apart
+38. Fall back on
+39. Fall for
+40. Fall in with
+41. Fall out
+42. Fall through
+43. Fend off
+44. Figure out
+45. Fill in
+46. Find out
+47. Fizzle out
+48. Focus on
+49. Follow up
+50. Foul up
+
+- Source: uploaded `Vocabulary-2.docx`, advanced vocabulary entries 667–698 and Facet (720), plus the following E/F phrasal-verb entries 699–719.
+- Duplicate control: “Exhaustive”, “Exorbitant”, and “Exploit” were omitted because they already appear in earlier batches. The source strings “Erase out” and “Explanation for” were excluded as nonstandard or unsuitable entries.
+- This batch contains 150 English example sentences with Bengali translations.
+
+
 This is the working control list for the 7,000-item Vocabulary Library. Before publishing any new word or phrasal verb, normalize its headword/phrase and compare it with every item below and all later entries added to this register.
 
 ## Duplicate-control rules
@@ -627,11 +685,11 @@ These entries already exist in the former Chapter 01 and Chapter 02 pages. They 
 
 ## Progress accounting
 
-- New-library published items: **500 / 7,000**
+- New-library published items: **550 / 7,000**
 - Legacy items reserved for migration: **27**
 - Published new-library items in this register: **500 unique headwords**
 - Phrasal verbs published in the new library: **0**
-- Remaining new-library target: **6,500 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
+- Remaining new-library target: **6,450 items** (combined words and phrasal verbs, subject to the agreed 7,000-total interpretation)
 
 ## Next batch workflow
 
