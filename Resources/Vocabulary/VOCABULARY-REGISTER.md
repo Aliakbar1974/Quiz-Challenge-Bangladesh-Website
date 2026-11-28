@@ -1,5 +1,62 @@
 # Vocabulary Library — Master Duplicate Register
 
+**Level 1 — Batch 038 (50 unique headwords)**
+
+1. Capability
+2. Carbohydrate
+3. Cargo
+4. Carve
+5. Casualty
+6. Catering
+7. Caution
+8. Cease
+9. Celebrity
+10. Cemetery
+11. Centralize
+12. Century
+13. Ceremony
+14. Certificate
+15. Challenge
+16. Chamber
+17. Champion
+18. Channel
+19. Chapter
+20. Charity
+21. Charter
+22. Chatter
+23. Checklist
+24. Cheer
+25. Chemical
+26. Childhood
+27. Chip
+28. Choice
+29. Cholesterol
+30. Chronicle
+31. Circuit
+32. Circulate
+33. Circumstance
+34. Citizen
+35. Civic
+36. Civilian
+37. Clarify
+38. Classification
+39. Damage
+40. Damp
+41. Daring
+42. Database
+43. Dawn
+44. Deadly
+45. Dealer
+46. Death rate
+47. Debate
+48. Debris
+49. Debut
+50. Decade
+
+- Source: uploaded `Vocabulary-2.docx`, B1–B2 list immediately following “Candidate” (source entries beginning with “Capability”).
+- Duplicate control: “Captive” and “Censure” were omitted because they already appear in earlier published batches. The sequence was continued through “Decade” to complete 50 unique headwords.
+- This batch contains 150 English example sentences with Bengali translations.
+
 **Level 1 — Batch 011 (50 unique headwords and phrases)**
 
 1. Exhilarating
@@ -683,7 +740,11 @@ These entries already exist in the former Chapter 01 and Chapter 02 pages. They 
 26. Raze
 27. Rebut
 
-## Progress accounting
+## Register maintenance note
+
+- Batch 038 has been added above. The historical register below this entry is incomplete: it currently documents Batches 001–011 and legacy reserved items, while Batches 012–037 are published in the repository but are not yet fully transcribed here. Do not treat the historical progress figures below as current. A complete register reconciliation is still required before using this file as a definitive duplicate-control source.
+
+## Progress accounting (historical; not current)
 
 - New-library published items: **550 / 7,000**
 - Legacy items reserved for migration: **27**
