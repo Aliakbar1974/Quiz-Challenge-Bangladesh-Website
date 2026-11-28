@@ -874,3 +874,59 @@ Batch 039 contains 29 new D-words, 5 D-based phrasal verbs, and 16 E-words. This
 50. Female
 
 Batch 040 contains 28 E-words, 5 E-based phrasal verbs, and 17 F-words. Eloquent and Fascinate were omitted because those headwords already appear in earlier published batches. The historical register remains incomplete for Batches 012–037, so the full historical deduplication record still requires reconciliation.
+
+
+## Level 1 — Batch 041 (50 items)
+
+1. Feminine
+2. Fertile
+3. Festival
+4. Fiber
+5. Fiction
+6. Fierce
+7. Figure
+8. File
+9. Filter
+10. Finance
+11. Financial
+12. Firefighter
+13. Firm
+14. Fitness
+15. Fix
+16. Flavour
+17. Flexible
+18. Flight
+19. Float
+20. Flood
+21. Flourish
+22. Fluency
+23. Fluent
+24. Focus
+25. Fold
+26. Folklore
+27. Forecast
+28. Face up to
+29. Fall behind
+30. Figure in
+31. Finish off
+32. Fix up
+33. Gadget
+34. Galaxy
+35. Gallery
+36. Garbage
+37. Garment
+38. Gather
+39. Gender
+40. Generate
+41. Generation
+42. Generosity
+43. Genetic
+44. Geographical
+45. Gesture
+46. Giant
+47. Giggle
+48. Glance
+49. Global
+50. Globalization
+
+Batch 041 contains 27 F-words, 5 F-based phrasal verbs, and 18 G-words. The selection follows the source list after Female. It was compared against the published Batch 001–040 page titles for exact headword and phrase duplicates. The historical register remains incomplete for Batches 012–037, so full historical deduplication still requires reconciliation.
