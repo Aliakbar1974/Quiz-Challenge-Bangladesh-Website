@@ -762,3 +762,59 @@ For every proposed batch:
 - reject duplicate lemmas and duplicate phrasal-verb phrases;
 - verify meanings, parts of speech, natural collocations and example translations;
 - add the accepted entries to this register in the same change as the lesson page.
+
+
+## Level 1 — Batch 039 (50 items)
+
+1. Deceit
+2. Decorate
+3. Decrease
+4. Dedicated
+5. Dedication
+6. Deed
+7. Deepen
+8. Defect
+9. Defence
+10. Deficit
+11. Define
+12. Definite
+13. Definition
+14. Deforest
+15. Degrade
+16. Delegate
+17. Delicate
+18. Delivery
+19. Demand
+20. Democracy
+21. Demonstrate
+22. Denial
+23. Dense
+24. Density
+25. Depart
+26. Department
+27. Departure
+28. Dependence
+29. Deposit
+30. Die away
+31. Dig in
+32. Divide up
+33. Draw back
+34. Drive away
+35. Earnings
+36. Earthquake
+37. Echo
+38. Eclipse
+39. Ecology
+40. Economic
+41. Economical
+42. Edition
+43. Educator
+44. Effective
+45. Efficiency
+46. Efficient
+47. Elaborate
+48. Elderly
+49. Election
+50. Electric
+
+Batch 039 contains 29 new D-words, 5 D-based phrasal verbs, and 16 E-words. This batch was compared against the existing published batch pages (001–038) for exact headword/phrase duplicates. The historical register remains incomplete for Batches 012–037; therefore this batch-level comparison should not be interpreted as a completed reconciliation of the entire library.
