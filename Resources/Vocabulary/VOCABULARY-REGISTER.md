@@ -818,3 +818,59 @@ For every proposed batch:
 50. Electric
 
 Batch 039 contains 29 new D-words, 5 D-based phrasal verbs, and 16 E-words. This batch was compared against the existing published batch pages (001–038) for exact headword/phrase duplicates. The historical register remains incomplete for Batches 012–037; therefore this batch-level comparison should not be interpreted as a completed reconciliation of the entire library.
+
+
+## Level 1 — Batch 040 (50 items)
+
+1. Electron
+2. Element
+3. Elementary
+4. Elevate
+5. Eligible
+6. Eliminate
+7. Embassy
+8. Emerge
+9. Emigrate
+10. Emission
+11. Emotion
+12. Emphasis
+13. Emphasize
+14. Enable
+15. Encounter
+16. Encourage
+17. Endanger
+18. Endless
+19. Enforce
+20. Engage
+21. Enhance
+22. Enormous
+23. Enquiry
+24. Ensure
+25. Entertain
+26. Enthusiasm
+27. Entire
+28. Entity
+29. Edge out
+30. Embark on
+31. End up with
+32. Explain away
+33. Eye up
+34. Fabric
+35. Fabulous
+36. Facilitator
+37. Factor
+38. Faculty
+39. Familiar
+40. Famine
+41. Fashionable
+42. Fasten
+43. Fatal
+44. Fatigue
+45. Favourable
+46. Feature
+47. Federation
+48. Feedback
+49. Fellow
+50. Female
+
+Batch 040 contains 28 E-words, 5 E-based phrasal verbs, and 17 F-words. Eloquent and Fascinate were omitted because those headwords already appear in earlier published batches. The historical register remains incomplete for Batches 012–037, so the full historical deduplication record still requires reconciliation.
